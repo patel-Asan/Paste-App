@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .btn-blue {
+    @apply px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-sm font-medium transition;
+  }
+
+  .btn-indigo {
+    @apply px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-sm font-medium transition;
+  }
+
+  .btn-red {
+    @apply px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-xl text-sm font-medium transition;
+  }
+
+  .btn-green {
+    @apply px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-xl text-sm font-medium transition;
+  }
+
+  .btn-dark {
+    @apply px-4 py-2 bg-gray-800 hover:bg-black text-white rounded-xl text-sm font-medium transition;
+  }
+}
