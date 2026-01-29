@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Nav from "./component/Nav";
-import Home from "./component/Home";
-import Paste from "./component/Paste";
-import Viewpaste from "./component/Viewpaste";
+import Nav from "./components/Nav";
+import Home from "./components/Home";
+import Paste from "./components/paste";
+import Viewpaste from "./components/Viewpaste";
 
 const Layout = ({ children }) => {
   return (
