@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Paste from "./components/paste";
-import Viewpaste from "./components/Viewpaste";
+import Viewpaste from "./components/viewpaste";
 
 const Layout = ({ children }) => {
   return (
